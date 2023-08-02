@@ -35,3 +35,16 @@ table, td {
 .occupied {
     background-color: lightgray;
 }
+
+
+
+  .selected{
+    background-color: rgb(154, 148, 148);
+  }
+
+  .reveal
+  {
+    color: lavenderblush
+  }
+
+  
