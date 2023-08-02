@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 6px;
+    background-color: lightblue;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, td {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.board td:hover {
+    background-color: rgba(239, 167, 138, 0.038);
+}
+
+.occupied {
+    background-color: lightgray;
+}
