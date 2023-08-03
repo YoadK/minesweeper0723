@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 6px;
+    background-color: lightblue;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table,
+td {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.board td:hover {
+    background-color: rgba(239, 167, 138, 0.038);
+}
+
+.occupied {
+    background-color: lightgray;
+    
+}
+
+
+
+.selected {
+    background-color: rgb(154, 148, 148);
+}
+
+/* 
+.reveal {
+    color: lavenderblush
+} 
+ 
+.cell.revealed {
+    background-color: #fff; /* Change background color for revealed cells */
+    border-color: #ccc;
+  }
+  
+  /* Styling for hidden cells */
+  .cell.hidden {
+    background-color: #ddd; /* Default background color for hidden cells */
+    border-color: #ec6363;
+    color: transparent; /* Hide the cell content */
+    cursor: pointer; /* Add cursor pointer for hidden cells */
+  }
+  
+  .cell.hidden:hover {
+    background-color: #81ea8f; /* Lighten background color on hover */
+  } */
+
+  footer {
+    text-align: left;
+    font-size: 12px;
+    padding: 3px;
+    background-color: rgb(237, 209, 199);
+    color: whitesmoke;
+    margin-top: 100px;
+  }
+
+
+  .cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+ .hidden{
+    background-color: #ddd; /* Default background color for hidden cells */
+    border-color: #ec6363;
+    color: transparent; /* Hide the cell content */
+    cursor: pointer; /* Add cursor pointer for hidden cells */
+    /* display: none; */
+} 

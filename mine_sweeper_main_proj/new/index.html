@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body onload="onInit()">
+    <h1>Mine_sweeper</h1>
+
+    <h2>num of mines: <span class="numOfMines"></span></h2>
+    <h2>num of neighbors (according to clicked cell): <span class="numOfNegs"></span></h2>
+
+
+    <button onclick="toggleGame(this)">Play</button>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+
+
+    <div class="timer">Timer: <span>0.000</span></div>
+    <table class="board"></table>
+
+    <div class="btn-dif">
+        <button class="easy" onclick="setLevel(4)">Easy(16)</button>
+        <button class="medium" onclick="setLevel(5)">Medium(25)</button>
+        <button class="hard" onclick="setLevel(6)"> Hard(36)</button>
+
+        <button class="reset" onclick="resetGame()">Restart</button>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+
+    
+        <!-- <div>
+        <table>
+            <tr>                         
+            <span class="cell" id="cell-0-0"></span>
+            <span class="cell" id="cell-0-1"></span>
+            <span class="cell" id="cell-0-2"></span>
+            </tr>
+        </table>
+        </div> -->
+
+
+    <footer class="footer">
+        <p>Author: Yoad Kotkovski 2023</p>
+    </footer>
+
+</body>
+
+</html>
